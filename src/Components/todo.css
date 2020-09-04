@@ -1,4 +1,37 @@
 /*Base of pages */
+#list {
+    background-color: white;
+    color:black;
+    border: 2px solid black;
+    margin-top: 12px;
+}
+
+.container-fluid {
+    background-color: rgb(243, 169, 119);
+}
+.Add {
+    
+    background-color: rgb(219, 99, 219);
+}
+.AppImg {
+    width: 75%;
+    height:220px;
+    margin-top: 15px ;
+    margin-left: 65px;
+}
+.AppImg2 {
+    width: 12%;
+    height: 10%;
+}
+.chart {
+    margin-left: 35px;
+    margin-top: 12px;
+}
+.part {
+    font-weight: bold;
+    color: rgb(41, 116, 103);
+}
+
 
 /*contact form page */
 .text {
@@ -25,3 +58,32 @@ h6 {
 }
 
 /*Overlay pointers */
+#overlay-form {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background-color: rgba(0,0,0,0.6);
+    
+}
+
+.pointer {
+    cursor: pointer
+}
+.active {
+    background-color: teal;
+    color: white;
+}
+.activeView {
+    background-color:goldenrod;
+    color:white;
+}
+
+a.bar {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
