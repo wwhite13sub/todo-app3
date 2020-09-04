@@ -1,6 +1,9 @@
 import React from 'react';
 import Images from '../Images/AccT.png';
 import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
+import  {changeActive } from './../redux/actions/navbar';
 
 class NavBar extends React.Component {
     constructor(props) {
@@ -9,6 +12,17 @@ class NavBar extends React.Component {
           active: 'project' /*Project to be "Home*/
       }
     }
+    /*Command Props for active Nav*/
+    changeActiveToProject = () => {
+        this.props.changeActive('project');
+       }
+       changeActiveToTodo = () => {
+         this.props.changeActive('todos');
+       }
+       changeActiveToContact = () => {
+         this.props.changeActive('contact');
+       }
+
     
     render() {
         return ( 
@@ -32,3 +46,14 @@ class NavBar extends React.Component {
         );
       };
     }
+    const mapStateToProps = state => {
+        console.log('state', state);
+          return {
+              active: state.navbar.active
+          }
+      }
+      
+      const mapDispatchToProps = dispatch => ({
+          changeActive: (name) => dispatch(changeActive(name))
+      });
+      export default connect(mapStateToProps, mapDispatchToProps)( NavBar );
