@@ -83,7 +83,7 @@ class Contact extends Component {
         //check length
         if (this.state.firstName.length > 20
             || this.state.lastName.length > 20
-            || this.state.comments.length > 20
+            || this.state.comments.length > 100
         ) {
             this.setState({
                 error: 'All the inputs can be max of 20 char. length.',
