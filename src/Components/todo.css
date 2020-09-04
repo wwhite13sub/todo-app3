@@ -1,5 +1,27 @@
 /*Base of pages */
 
 /*contact form page */
+.text {
+    margin-top: 35px;
+}
+h6 {
+    text-align:center;
+    padding: .5% 1%;
+    float: left;
+    background-color: lightgray;
+    color:black;
+    border: .2px solid black;
+
+}
+#name {
+    margin-top: 45px;
+    padding: 30px;
+}
+.bar:hover {
+    background-color: goldenrod;
+}
+.bar.active {
+    background: goldenrod;
+}
 
 /*Overlay pointers */
