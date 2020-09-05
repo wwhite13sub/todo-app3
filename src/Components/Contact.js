@@ -125,7 +125,13 @@ class Contact extends Component {
 
 render() {
     return (
-        <div id="name" className="row">
+        <>
+            <div className="cont-container">
+            <p className="cont-info">ALL FIELDS REQUIRED.<br></br>
+            Click "SUBMIT" to send email to Project Manager.<br></br>       
+            </p>
+            </div>
+            <div id="name" className="row">
             <div className="col-12">
                 <Form.Group controlId="formBasicEmail">
                   <Form.Label>First Name</Form.Label>
@@ -150,6 +156,7 @@ render() {
                 {this.showSuccess()}
             </div>
         </div>
+        </>
     )
 }
 }
