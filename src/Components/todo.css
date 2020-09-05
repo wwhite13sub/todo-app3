@@ -47,8 +47,8 @@ h6 {
 
 }
 #name {
-    margin-top: 45px;
-    padding: 30px;
+    margin-top: 10px;
+    padding: 22px;
 }
 .bar:hover {
     background-color: goldenrod;
@@ -56,6 +56,15 @@ h6 {
 .bar.active {
     background: goldenrod;
 }
+
+.cont-info {
+    margin-left: 2%;
+    margin-top: 3%;
+    font-weight: bold;
+    border: solid black;
+    border-style: solid;
+}
+
 
 /*Overlay pointers */
 #overlay-form {
