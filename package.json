@@ -43,8 +43,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
   }
+=======
+  } 
+>>>>>>> 723321dcae004958f62d4e14ffdb4e7e8cbd87e8
 }
