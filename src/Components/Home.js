@@ -13,6 +13,8 @@ class Home extends Component {
                 <p><strong>Project Due Date: </strong>12/20/21</p>
                 <p><strong>Project Objective: </strong>Create Todo List Web Application</p>
                 <p><strong>Project Participants: </strong> D.Pearl,  K.Pearl,  W.White,</p>
+                <br></br>
+                <br></br>
               
     
             </div>
