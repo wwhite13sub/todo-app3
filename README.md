@@ -1,3 +1,32 @@
+README.MD FILE IN ROOT PROJECT FOLDER
+
+1.  Name:  Wanda White
+
+2.  Overview/Description:  Project is to develop a website for TODO’s.  The site is to be used by anyone who is interested in a todo list and has three main pages.  1) The Home pages will display general information about the project such as project number, name, due date, objective and participants.  2) The todo list page will display a list of todo’s and allow the user to delete, mark complete, add new todo’s and selectively list all, active or completed todo’s.   3) The contact page will allow the user to enter name, email address and a comment and it will send an email to appropriate person. The site should have all functionality on both desktop and mobile devices.
+
+3. Details on how to use it or what functionality is offered:
+a) Site users will access website via internet by entering site address.
+b) On Home page, Site users can view high level project data that includes: project number, name, due date, objective and participants.  
+c) On TODO list page, site users will be able to selectively view todo items (all, complete or active).
+d) On TODO list page, site users will be able to mark an active todo as Complete and the list will immediately reflect the todo as Complete.
+e) On TODO list page, site users will be able to delete any todo and the list will immediately reflect the deletion.  
+f) On TODO list page, site users will be able to add a todo by entering todo description and assigned to and the list will immediately include the added todo.
+g) On Contact page, site users will be able to enter first name, last name, email and comments and an email will be sent.  If any data is entered in one field, data must be entered into all fields.
+h)  Site users will be able to do anything on mobile device that can be done on desktop. 
+
+4.  Technologies used:  React, Redux, HTML, CSS custom rules, JavaScript, ESLint, Bootstrap, DesignIO, jQuery, GitHub HOSTING SITE:   
+
+     Bonus points technology included:  ESLink, GitHub issues linked to GitHub commits, mobile access
+
+5.  Ideas for future improvement:
+ a) Improve user experience by allowing user to establish a userid and password, and update only their own todo items.
+b)  Improve user experience by allowing user to enter todo estimated completion date and completion date.
+c) Improve user experience by allowing user to update a task description.  
+d) Improve user experience by allowing multiple projects to be entered with associated todo items.
+e) Improve user experience in navigation by establishing project manager role that can update any todo’s for his/her project.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
