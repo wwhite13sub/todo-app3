@@ -2,7 +2,7 @@ README.MD FILE IN ROOT PROJECT FOLDER
 
 1. Name:  Wanda White
 
-2. Overview/Description:  Project is to develop a website for TODO’s.  The site is to be used by anyone who is interested in a todo list and has three main pages.  1) The Home pages will display general information about the project such as name, due date, objective and participants.  2) The todo list page will display a list of todo’s and allow the user to delete, mark complete, add new todo’s and selectively list all, active or completed todo’s.   3) The contact page will allow the user to enter name, email address and a comment and it will send an email to appropriate person. The site should have all functionality on both desktop and mobile devices.
+2. Overview/Description:  Project is to develop a website for TODO’s.  The site is to be used by anyone who is interested in a todo list and has three main pages.  1) The Home pages will display general information about the project such as project number, name, due date, objective and participants.  2) The todo list page will display a list of todo’s and allow the user to delete, mark complete, add new todo’s and selectively list all, active or completed todo’s. 3) The contact page will allow the user to enter first name, last name, email address and a comment and it will send an email. The site should have all functionality on both desktop and mobile devices and should be accessed via a hosting web site.
 
 3. Details on how to use it or what functionality is offered:
 a) Site users will access website via internet by entering site address.
@@ -14,16 +14,51 @@ f) On TODO list page, site users will be able to add a todo by entering todo des
 g) On Contact page, site users will be able to enter first name, last name, email and comments and an email will be sent.  If any data is entered in one field, data must be entered into all fields.
 h)  Site users will be able to do anything on mobile device that can be done on desktop. 
 
-4. Technologies used:  React, Redux, HTML, CSS custom rules, JavaScript, ESLint, Bootstrap, DesignIO, jQuery, GitHub HOSTING SITE: https://the-happy.netlify.app  
-
-     Technology included:  ESLink, GitHub issues linked to GitHub commits, mobile access
+4. Technologies used:  React, Redux, React Router HTML, CSS custom rules, JavaScript, ESLint, Bootstrap, DesignIO, jQuery, GitHub,Mobile access, Chrome Browser, HOSTING SITE: https://accomplishtodo.netlify.app/
+     
 
 5. Ideas for future improvement:
- a) Improve user experience by allowing user to establish a userid and password, and update only their own todo items.
-b)  Improve user experience by allowing user to enter todo estimated completion date and completion date.
-c) Improve user experience by allowing user to update a task description.  
+a) Improve user experience by allowing user to establish a userid and password, and update only their own todo items.
+b)  Improve user experience by allowing user to enter todo estimated completion date and actual completion date.
+c) Improve user experience by allowing user to update a task description and assigned to person.  
 d) Improve user experience by allowing multiple projects to be entered with associated todo items.
-e) Improve user experience in navigation by establishing project manager role that can update any todo’s for his/her project.
+e) Improve user experience by establishing project manager role that can update any todos for his/her project.
+f) Improve user experience by saving all data for a user from one login session to another.
+
+Installation Instructions:
+1. Use browser of choice (for example Chrome).
+2. Go to Github.com and select todo-app3 and clone repository. 
+3. Open in code editor(for example Visual Studio Code).
+4. Execute application in terminal with npm start.
+5. Application will display on local host.
+
+Installation instruction if you want to use on browser:
+1. Go to to Netlify.com
+2. Create account
+3. Netlify will assign unique site address. 
+4. To deploy application click on "New site from Git" 
+5. Connect to your Github account. 
+6. Select "Deploy". 
+7. Choose from your master branch and project of choice
+8. Application will build and deploy once finished. 
+9. Select on deployed application and it will display on browser.
+
+
+
+Execution Instructions:
+1. Go to https://accomplishtodo.netlify.app/ 
+in browser. 
+2. Click on "Project" on the navigation bar to view project information.
+3. Click on "Todo" tab on the navigation bar.
+   -  Click on "Add Task". 
+   -  Enter task description and select name of person assigned to task.
+   - Click "Submit"
+4. To mark a task complete click on box under the "Mark Complete section.
+5. To delete a task click on the trash icon under the "Delete" section.
+6. Select "All" to view all tasks; select "Active" to view only active tasks; and select "Completed" to view only completed tasks.  
+7. To send an email click on "Contact" on the navigation bar.
+     - Enter data in first name, last name, email address and comments.
+     - Click "Submit".
 
 
 
